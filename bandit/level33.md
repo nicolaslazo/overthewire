@@ -7,10 +7,10 @@
 Oh yeah! I remember seeing this one! Sadly I'll have to admit I couldn't figure out the solution and had to cheat a little. I knew it had to be something that didn't involve using alphabetic characters, but I'd forgotten about $0. 
 
 Since this is passed as an argument to sh after some text transformation I could use special variables. In sh, all $N from 1-9 represent the arguments passed to the command, but the peculiarity about $0 is that it returns the name of the program itself. The uppercase version of $0 is $0, and if you have something like
-`sh -c $0`
+```sh -c $0```
 
 It evaluates as
-`sh -c sh`
+```sh -c sh```
 
 Returning a working shell.
 

@@ -3,7 +3,7 @@
 > Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.
 
 We can check `/etc/passwd` to see each user's default shell:
-`bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext`
+```bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext```
 
 This is the contents of `/usr/bin/showtext`:
 ```bash

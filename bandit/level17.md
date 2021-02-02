@@ -40,4 +40,4 @@ Nmap done: 1 IP address (1 host up) scanned in 90.26 seconds
 ```
 
 Running the same command as in the previous level reveals the credentials to progress.
-`echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -connect localhost:31790 -ign_eof`
+```echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -connect localhost:31790 -ign_eof```

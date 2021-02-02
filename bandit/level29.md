@@ -10,7 +10,6 @@ Some notes for level29 of bandit.
 
 - username: bandit29
 - password: xxxxxxxxxx
-
 ```
 
 It seems like the data was censored. We don't have much to work with here, so let's check the timeline with `git log`:
