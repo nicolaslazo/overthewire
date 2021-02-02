@@ -24,4 +24,5 @@ bandit29@bandit:/tmp/tytyty/repo$ git branch -a
 ```
 
 To get the password, pull the dev branch and open the README
+
 ```git pull origin dev```

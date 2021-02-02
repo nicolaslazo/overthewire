@@ -10,6 +10,7 @@ We have the password for this level, but we're still stuck with the custom shell
 ```
 
 Let's see the tools we're given for this level:
+
 ```
 bandit26@bandit:~$ ./bandit27-do 
 Run a command as another user.

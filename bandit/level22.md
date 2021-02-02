@@ -9,6 +9,7 @@ bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
 ```
 
 Checking the script mentioned in the crontab, it seems like they're writing the password to a file in /tmp
+
 ```
 bandit21@bandit:~$ cat /usr/bin/cronjob_bandit22.sh 
 #!/bin/bash

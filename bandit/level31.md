@@ -20,6 +20,7 @@ Date:   Thu May 7 20:14:54 2020 +0200
 Well that doesn't help. 
 
 Messing with the files in `.git`, I found this:
+
 ```
 bandit30@bandit:/tmp/fafafa/repo/.git$ cat packed-refs
 # pack-refs with: peeled fully-peeled 

@@ -3,6 +3,7 @@
 > The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 
 There seem to be ten files here, all starting with a hyphen. First I'd run `file -- *` to see the file types
+
 ```
 -file00: data
 -file01: data

@@ -9,4 +9,5 @@ Run a command as another user.
 ```
 
 Only bandit20 can access the password file for the next level, so this script is our way in
+
 ```./bandit20-do cat /etc/bandit_pass/bandit20```

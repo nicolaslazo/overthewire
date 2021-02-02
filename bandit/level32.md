@@ -19,6 +19,7 @@ git push
 ```
 
 This warning may pop up when you try to add `key.txt`:
+
 ```
 bandit31@bandit:/tmp/ewewew/repo$ git add key.txt 
 The following paths are ignored by one of your .gitignore files:

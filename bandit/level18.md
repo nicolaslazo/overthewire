@@ -7,4 +7,5 @@
 The previous level prints an RSA private key instead of a plaintext password, so to log in I had to dump that into a file, change its permissions to 400 to satisfy `ssh`'s security requirements and used that as my identity file.
 
 I used diff to see what changed between files.
+
 ```diff passwords.old passwords.new```

@@ -9,4 +9,5 @@ I'm sure there's some way to make this cleaner, but this is what I did:
 4. Use `head -n 1` to fetch that line
 
 All put together:
+
 ```sort data.txt | uniq -c | sort -r | head -n 1```

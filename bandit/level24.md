@@ -3,6 +3,7 @@
 > A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
 
 This is the script being executed as bandit24:
+
 ```bash
 #!/bin/bash
 
@@ -25,11 +26,13 @@ done
 ``` 
 
 Basically what this script does is look for any scripts located in `/var/spool/bandit24/` and, if the user is `bandit23`, executes them. I went to a temporary directory and wrote this
+
 ```
 bandit23@bandit:/tmp/lsdkfaj$ touch savepass.sh
 bandit23@bandit:/tmp/lsdkfaj$ chmod +x savepass.sh 
 bandit23@bandit:/tmp/lsdkfaj$ vim savepass.sh
 ```
+
 ```
 #!/bin/bash
 

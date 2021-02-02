@@ -13,6 +13,7 @@ Some notes for level29 of bandit.
 ```
 
 It seems like the data was censored. We don't have much to work with here, so let's check the timeline with `git log`:
+
 ```
 Author: Morla Porla <morla@overthewire.org>
 Date:   Thu May 7 20:14:49 2020 +0200

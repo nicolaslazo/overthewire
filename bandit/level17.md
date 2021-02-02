@@ -3,6 +3,7 @@
 > The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 
 An `nmap` scan trying to reveal services finds an ssl/unknown port with data mentioning a password
+
 ```
 bandit16@bandit:~$ nmap -sV -p31000-32000 localhost
 
@@ -40,4 +41,5 @@ Nmap done: 1 IP address (1 host up) scanned in 90.26 seconds
 ```
 
 Running the same command as in the previous level reveals the credentials to progress.
+
 ```echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -connect localhost:31790 -ign_eof```
